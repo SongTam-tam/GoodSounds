@@ -1,11 +1,12 @@
 import StreamingMenu from '../../../component/streaming/streamingmenu/StreamingMenu';
+import Top100Wrap from '../../../component/streaming/top100/Top100Wrap';
 import './style.scss';
 
 const Top100 = () => {
     return (
-        <div>
+        <div id="top100">
             <StreamingMenu />
-            탑100메인
+            <Top100Wrap />
         </div>
     );
 };

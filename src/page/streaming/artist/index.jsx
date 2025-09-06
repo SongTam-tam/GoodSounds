@@ -1,11 +1,12 @@
 import StreamingMenu from '../../../component/streaming/streamingmenu/StreamingMenu';
+import ArtistWrap from '../../../component/streaming/artist/ArtistWrap';
 import './style.scss';
 
 const Artist = () => {
     return (
-        <div>
+        <div id="artist">
             <StreamingMenu />
-            아티스트메인
+            <ArtistWrap />
         </div>
     );
 };

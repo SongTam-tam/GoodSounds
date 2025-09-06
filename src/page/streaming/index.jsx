@@ -1,11 +1,12 @@
+import StreamingMainWrap from '../../component/streaming/streamingmain/StreamingMainWrap';
 import StreamingMenu from '../../component/streaming/streamingmenu/StreamingMenu';
 import './style.scss';
 
 const Streaming = () => {
     return (
-        <div id="streaming home">
+        <div id="streaming">
             <StreamingMenu />
-            스트리밍메인
+            <StreamingMainWrap />
         </div>
     );
 };

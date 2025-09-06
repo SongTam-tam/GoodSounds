@@ -1,11 +1,12 @@
+import ArtistInfoWrap from '../../../component/streaming/artistinfo/ArtistInfoWrap';
 import StreamingMenu from '../../../component/streaming/streamingmenu/StreamingMenu';
 import './style.scss';
 
 const ArtistInfo = () => {
     return (
-        <div>
+        <div id="artistinfo">
             <StreamingMenu />
-            아티스트정보메인
+            <ArtistInfoWrap />
         </div>
     );
 };
