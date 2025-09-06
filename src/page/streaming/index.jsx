@@ -1,8 +1,13 @@
-import React from 'react';
+import StreamingMenu from '../../component/streaming/streamingmenu/StreamingMenu';
 import './style.scss';
 
-const index = () => {
-    return <div id="streaming home"></div>;
+const Streaming = () => {
+    return (
+        <div id="streaming home">
+            <StreamingMenu />
+            스트리밍메인
+        </div>
+    );
 };
 
-export default index;
+export default Streaming;
