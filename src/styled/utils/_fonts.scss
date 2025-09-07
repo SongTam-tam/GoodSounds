@@ -66,3 +66,15 @@
     letter-spacing: vw(0);
     color: $fc;
 }
+@mixin font-24px-600 {
+    font-size: vw(24px);
+    font-weight: 600;
+    letter-spacing: vw(0);
+    color: $fc;
+}
+@mixin font-18px-600 {
+    font-size: vw(24px);
+    font-weight: 600;
+    letter-spacing: vw(0);
+    color: $fc;
+}
